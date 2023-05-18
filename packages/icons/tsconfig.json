@@ -12,7 +12,8 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "svgr.config.js"
   ],
   "exclude": ["dist", "node_modules", "**/*.spec.ts"]
 }
