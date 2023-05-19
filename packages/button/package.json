@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "button",
-  "version": "1.0.0",
+  "name": "@dcmono/button",
+  "version": "0.1.0-alpha.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {

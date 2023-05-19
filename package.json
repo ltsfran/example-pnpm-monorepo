@@ -1,9 +1,18 @@
 {
   "name": "pnpm-monorepo",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "clean": "lerna clean -y",
+    "build:packages": "lerna run build",
+    "publish:packages": "lerna run build && lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "6.6.2"
+  }
 }
