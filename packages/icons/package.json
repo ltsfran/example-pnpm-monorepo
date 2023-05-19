@@ -2,13 +2,15 @@
   "name": "@dcmono/icons",
   "version": "0.1.0-alpha.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "rimraf dist && svgr -- assets && tsup src --dts"
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/react": "18.2.6",
     "react": "18.2.0"
