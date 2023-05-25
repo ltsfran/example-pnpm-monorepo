@@ -1,6 +1,6 @@
 {
-  "name": "@dcmono/icons",
-  "version": "0.1.0-alpha.3",
+  "name": "@pnpmmono/icons",
+  "version": "0.1.0-alpha.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
