@@ -1,0 +1,45 @@
+import { Meta } from '@storybook/blocks'
+
+<Meta title="TailwindCSS/Plugin" />
+
+# Tailwind Plugin
+
+`Tailwind Plugin` is a plugin for `Tailwind CSS` that adds `PnpmMono` utility classes.
+
+## Installation
+
+```shell
+pnpm add @pnpmmono/tailwind-plugin
+```
+
+## API Reference
+
+```js
+// tailwind.config.js
+const { defaultConfig } = require('@pnpmmono/tailwind-plugin')
+
+module.exports = {
+  presets: [defaultConfig],
+  ...
+}
+```
+
+## Use cases
+
+### Typography
+
+```jsx
+<div className="font-ubuntu">
+  Garlic bread with cheese: What the science tells us
+</div>
+```
+
+### Viewport
+
+This class works with `useFullScreenHeight` hook.
+
+```jsx
+<div className="min-h-viewport">
+  <!-- ... -->
+</div>
+```

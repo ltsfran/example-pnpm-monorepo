@@ -1,0 +1,35 @@
+import { Meta } from '@storybook/blocks'
+
+<Meta title="TailwindCSS/Utils" />
+
+# Tailwind Utils
+
+`Tailwind Utils` is a util for `Tailwind CSS` that allow to manage the variations of classNames.
+
+## Installation
+
+```shell
+pnpm add @pnpmmono/tailwind-utils
+```
+
+## Import
+
+```js
+import { cn } from '@pnpmmono/tailwind-utils'
+```
+
+## Basic Usage
+
+```jsx
+<button
+  className={cn(
+    'text-center',
+    {
+      'w-full': isFullWidth
+    },
+    className
+  )}
+>
+  Click me!
+</button>
+```

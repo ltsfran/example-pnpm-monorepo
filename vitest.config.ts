@@ -9,6 +9,8 @@ export default defineConfig({
         '!**/*.stories.{ts,tsx}',
         '!**/examples/*',
         '!**/__mocks__/*',
+        '!**/packages/tailwind-utils/**/*',
+        '!**/packages/tailwind-plugin/**/*',
         '!**/packages/icons/**/*'
       ],
       reporter: ['lcov', 'json']
