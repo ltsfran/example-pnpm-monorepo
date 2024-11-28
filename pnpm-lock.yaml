@@ -126,6 +126,9 @@ importers:
 
   packages/button:
     dependencies:
+      '@pnpmmono/tailwind-utils':
+        specifier: workspace:*
+        version: link:../tailwind-utils
       '@types/react':
         specifier: 18.3.1
         version: 18.3.1
