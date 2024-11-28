@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "packages/**/*",
+    "apps/**/*",
+    "apps/docs/.storybook/*",
+    "vitest.workspace.ts",
+    "vitest.config.ts",
+    ".storybook/**/*",
+    ".prettierrc.mjs"
+  ]
+}

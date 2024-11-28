@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "strictNullChecks": true,
-    "jsx": "react-jsx",
-    "allowJs": true,
+    "target": "ES6",
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "sourceMap": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "lib": ["es6", "dom"],
-    "module": "commonjs",
-    "outDir": "./dist"
+    "declaration": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "."
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".eslintrc.js",
-    "svgr.config.js"
-  ],
-  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

@@ -1,0 +1,82 @@
+import * as icons from '@pnpmmono/icons'
+import { Add, ArrowBack } from '@pnpmmono/icons'
+import { Meta } from '@storybook/blocks'
+
+<Meta title="Components/Icons" />
+
+# Icons
+
+PNPM Mono UI provides multiple ways to use icons.
+
+## Installation
+
+```shell
+yarn add @pnpmmono/icons
+#or
+pnpm add @pnpmmono/icons
+```
+
+## Import
+
+```js
+import { Add, ArrowBack } from '@pnpmmono/icons'
+```
+
+## Basic Usage
+
+```jsx
+// The default icon size is 1em (16px)
+<Add />
+<ArrowBack />
+```
+
+## Result
+
+_Use a container to config the color and size of the icon with style or Tailwind classes (Recommended)_
+
+<div
+  style={{
+    fontSize: 32,
+    color: 'green',
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '2rem'
+  }}
+>
+  <Add />
+  <ArrowBack />
+</div>
+
+## Icon List
+
+The list of all available icons
+
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+    gap: '16px'
+  }}
+>
+  {Object.keys(icons).map((moduleName, index) => {
+    const Element = icons[moduleName]
+    return (
+      <div
+        key={index}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          border: '1px solid gray',
+          borderRadius: '8px',
+          padding: '8px 4px'
+        }}
+      >
+        <span style={{ fontSize: '24px' }}>
+          <Element />
+        </span>
+        <div style={{ fontSize: '14px', marginTop: '4px' }}>{moduleName}</div>
+      </div>
+    )
+  })}
+</div>
