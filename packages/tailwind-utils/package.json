@@ -1,6 +1,6 @@
 {
   "name": "@pnpmmono/tailwind-utils",
-  "version": "0.3.0-next.0",
+  "version": "0.3.0-next.1",
   "description": "A utility package for working with Tailwind CSS",
   "keywords": [
     "tailwindcss",

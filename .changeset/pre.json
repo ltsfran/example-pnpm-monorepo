@@ -9,6 +9,7 @@
     "@pnpmmono/tailwind-utils": "0.2.0"
   },
   "changesets": [
-    "dirty-shirts-itch"
+    "dirty-shirts-itch",
+    "small-icons-care"
   ]
 }
