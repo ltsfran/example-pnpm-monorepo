@@ -27,5 +27,5 @@
   },
   "tailwindCSS.classAttributes": ["class", "className", "ngClass", ".*Styles"],
   "cSpell.language": "en,es-ES",
-  "cSpell.words": ["autodocs", "pnpmmono", "tseslint", "vercel"]
+  "cSpell.words": ["autodocs", "ltsfran", "pnpmmono", "tseslint", "vercel"]
 }

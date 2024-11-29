@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "docs": "0.0.0",
+    "@pnpmmono/button": "1.1.0",
+    "@pnpmmono/icons": "1.1.0",
+    "@pnpmmono/tailwind-plugin": "0.1.0",
+    "@pnpmmono/tailwind-utils": "0.1.0"
+  },
+  "changesets": [
+    "rude-countries-exercise"
+  ]
+}

@@ -11,7 +11,13 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format:check": "prettier . --check",
+    "next:enter": "changeset pre enter next",
+    "next:exit": "changeset pre exit next",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "version:dev": "changeset version --snapshot dev",
+    "release:dev": "changeset publish --tag dev"
   },
   "dependencies": {
     "rimraf": "6.0.1",
