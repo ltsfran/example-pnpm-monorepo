@@ -1,5 +1,16 @@
 # @pnpmmono/button
 
+## 1.5.0
+
+### Minor Changes
+
+- c79a3ff: Testing prerelease
+
+### Patch Changes
+
+- Updated dependencies [c79a3ff]
+  - @pnpmmono/tailwind-utils@0.6.0
+
 ## 1.5.0-next.0
 
 ### Minor Changes

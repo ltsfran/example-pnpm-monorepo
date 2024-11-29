@@ -1,5 +1,11 @@
 # @pnpmmono/tailwind-utils
 
+## 0.6.0
+
+### Minor Changes
+
+- c79a3ff: Testing prerelease
+
 ## 0.6.0-next.0
 
 ### Minor Changes
