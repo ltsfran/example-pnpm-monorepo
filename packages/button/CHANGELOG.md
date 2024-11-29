@@ -1,5 +1,12 @@
 # @pnpmmono/button
 
+## 1.4.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @pnpmmono/tailwind-utils@0.5.0
+
 ## 1.4.1
 
 ### Patch Changes

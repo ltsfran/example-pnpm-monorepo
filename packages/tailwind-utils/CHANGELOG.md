@@ -1,5 +1,11 @@
 # @pnpmmono/tailwind-utils
 
+## 0.5.0
+
+### Minor Changes
+
+- Testing minor publishing
+
 ## 0.4.1
 
 ### Patch Changes
