@@ -1,5 +1,20 @@
 # @pnpmmono/button
 
+## 1.3.0
+
+### Minor Changes
+
+- 09f20ba: Testing releases
+- Stable versions
+- 3604257: Testing releases
+
+### Patch Changes
+
+- Updated dependencies [09f20ba]
+- Updated dependencies
+- Updated dependencies [3604257]
+  - @pnpmmono/tailwind-utils@0.3.0
+
 ## 1.3.0-next.1
 
 ### Minor Changes

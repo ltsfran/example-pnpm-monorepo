@@ -1,5 +1,13 @@
 # @pnpmmono/tailwind-plugin
 
+## 0.3.0
+
+### Minor Changes
+
+- 09f20ba: Testing releases
+- Stable versions
+- 3604257: Testing releases
+
 ## 0.3.0-next.1
 
 ### Minor Changes
