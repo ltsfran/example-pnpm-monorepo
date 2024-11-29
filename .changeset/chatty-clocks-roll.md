@@ -1,5 +1,0 @@
----
-'@pnpmmono/icons': minor
----
-
-testing

@@ -1,5 +1,11 @@
 # @pnpmmono/icons
 
+## 1.6.0
+
+### Minor Changes
+
+- [#2](https://github.com/ltsfran/example-pnpm-monorepo/pull/2) [`a6e062f`](https://github.com/ltsfran/example-pnpm-monorepo/commit/a6e062f09e8d0edd5011a0327c87e97a92f0c7a8) Thanks [@ltsfran](https://github.com/ltsfran)! - testing
+
 ## 1.6.0-next.0
 
 ### Minor Changes
