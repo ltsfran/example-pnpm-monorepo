@@ -1,5 +1,16 @@
 # @pnpmmono/button
 
+## 1.6.0-next.0
+
+### Minor Changes
+
+- Testing versions
+
+### Patch Changes
+
+- Updated dependencies
+  - @pnpmmono/tailwind-utils@0.7.0-next.0
+
 ## 1.5.0
 
 ### Minor Changes
