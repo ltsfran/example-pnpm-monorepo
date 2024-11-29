@@ -1,5 +1,11 @@
 # @pnpmmono/tailwind-plugin
 
+## 0.4.0-next.0
+
+### Minor Changes
+
+- Testing prereleases
+
 ## 0.3.0
 
 ### Minor Changes

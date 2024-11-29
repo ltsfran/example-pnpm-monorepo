@@ -1,5 +1,11 @@
 # @pnpmmono/icons
 
+## 1.4.0-next.0
+
+### Minor Changes
+
+- Testing prereleases
+
 ## 1.3.0
 
 ### Minor Changes
