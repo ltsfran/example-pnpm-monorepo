@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "docs": "0.0.0",
+    "@pnpmmono/button": "1.4.2",
+    "@pnpmmono/icons": "1.4.0",
+    "@pnpmmono/tailwind-plugin": "0.4.0",
+    "@pnpmmono/tailwind-utils": "0.5.0"
+  },
+  "changesets": [
+    "khaki-toes-sit"
+  ]
+}
