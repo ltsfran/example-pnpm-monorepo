@@ -1,5 +1,20 @@
 # @pnpmmono/tailwind-utils
 
+## 0.2.0
+
+### Minor Changes
+
+- 1ae9ba2: Testing
+- 0641bc6: Testing prerelease version
+- System: upgrading versions
+
+### Patch Changes
+
+- Updated dependencies [1ae9ba2]
+- Updated dependencies [0641bc6]
+- Updated dependencies
+  - @pnpmmono/tailwind-plugin@0.2.0
+
 ## 0.2.0-next.1
 
 ### Minor Changes

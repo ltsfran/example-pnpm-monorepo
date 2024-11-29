@@ -1,5 +1,13 @@
 # @pnpmmono/icons
 
+## 1.2.0
+
+### Minor Changes
+
+- 1ae9ba2: Testing
+- 0641bc6: Testing prerelease version
+- System: upgrading versions
+
 ## 1.2.0-next.1
 
 ### Minor Changes
